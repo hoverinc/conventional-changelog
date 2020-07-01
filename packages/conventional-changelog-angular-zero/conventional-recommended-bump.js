@@ -15,8 +15,6 @@ module.exports = {
     let breakings = 0;
     let features = 0;
 
-    debugger;
-
     commits.forEach(commit => {
       if (commit.notes.length > 0) {
         breakings += commit.notes.length;
